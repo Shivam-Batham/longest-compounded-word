@@ -1,1 +1,14 @@
 # longest-compounded-word
+# Algorithm:
+
+# The program uses a Trie data structure to efficiently check if a word can be formed by concatenating other words. It follows these steps:
+
+# 1.Read the list of words from the input file and insert them into a Trie.
+
+# 2.Sort the list of words in descending order of length.
+
+# 3.For each word in the sorted list, check if it is a compound word by traversing the Trie.
+
+# 4.Store compound words in a set.
+
+# 5.Find the longest and second-longest compound words from the set.
